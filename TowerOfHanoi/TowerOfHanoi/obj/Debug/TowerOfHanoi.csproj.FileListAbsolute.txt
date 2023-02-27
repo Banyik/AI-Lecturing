@@ -1,0 +1,7 @@
+C:\Users\user\Documents\ProfesszorÚr\C\TowerOfHanoi\TowerOfHanoi\bin\Debug\TowerOfHanoi.exe.config
+C:\Users\user\Documents\ProfesszorÚr\C\TowerOfHanoi\TowerOfHanoi\bin\Debug\TowerOfHanoi.exe
+C:\Users\user\Documents\ProfesszorÚr\C\TowerOfHanoi\TowerOfHanoi\bin\Debug\TowerOfHanoi.pdb
+C:\Users\user\Documents\ProfesszorÚr\C\TowerOfHanoi\TowerOfHanoi\obj\Debug\TowerOfHanoi.csproj.AssemblyReference.cache
+C:\Users\user\Documents\ProfesszorÚr\C\TowerOfHanoi\TowerOfHanoi\obj\Debug\TowerOfHanoi.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\ProfesszorÚr\C\TowerOfHanoi\TowerOfHanoi\obj\Debug\TowerOfHanoi.exe
+C:\Users\user\Documents\ProfesszorÚr\C\TowerOfHanoi\TowerOfHanoi\obj\Debug\TowerOfHanoi.pdb
