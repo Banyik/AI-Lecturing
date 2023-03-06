@@ -20,10 +20,11 @@ namespace TowerOfHanoi
         {
             if(state.Poles[to].Discs.Count > 0)
             {
-                return state.Poles[to].Discs[state.Poles[to].Discs.Count - 1] >
+                return state.Poles[from].Discs.Count > 0 &&
+                       state.Poles[to].Discs[state.Poles[to].Discs.Count - 1] >
                        state.Poles[from].Discs[state.Poles[from].Discs.Count - 1];
             }
-            return true;
+            return state.Poles[from].Discs.Count > 0;
         }
 
         public State ApplyState(State state)

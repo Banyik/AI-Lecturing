@@ -12,37 +12,7 @@ namespace TowerOfHanoi
         {
             State state = new State(new List<Pole>(), 3);
             state.SetStartingState(3);
-            Console.WriteLine(state.ToString());
-            do
-            {
-                int from;
-                int to;
-                while (true)
-                {
-                    Console.Write("From: ");
-                    if (int.TryParse(Console.ReadLine(), out from))
-                        break;
-                    Console.WriteLine("Bad arg.");
-                }
-                while (true)
-                {
-                    Console.Write("To: ");
-                    if (int.TryParse(Console.ReadLine(), out to))
-                        break;
-                    Console.WriteLine("Bad arg.");
-                }
-                Operator o = new Operator(from, to);
-                if (o.IsExistingState(state))
-                {
-                    state = o.ApplyState(state);
-                    Console.WriteLine(state.ToString());
-                }
-                else
-                {
-                    Console.WriteLine("Invalid State!");
-                }
-            } while (!state.IsTargetReached());
-            Console.WriteLine("Target reached!");
+            Solver trialAndError = new TrialAndError(state);
             Console.ReadLine();
         }
     }

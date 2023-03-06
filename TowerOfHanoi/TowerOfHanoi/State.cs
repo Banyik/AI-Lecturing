@@ -57,7 +57,8 @@ namespace TowerOfHanoi
                 }
                 value += $"{pole.Name}; Discs: {discs}\n";
             }
-            return value.TrimEnd('\n');
+            value += "---------------";
+            return value;
         }
     }
 }
