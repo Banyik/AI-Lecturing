@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BreadthFirst.cs" />
+    <Compile Include="DepthFirst.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Pole.cs" />
     <Compile Include="Program.cs" />

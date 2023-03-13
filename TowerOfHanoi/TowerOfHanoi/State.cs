@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TowerOfHanoi
 {
-    class State
+    class State : ICloneable
     {
         List<Pole> poles = new List<Pole>();
         int discCount;
@@ -59,6 +59,37 @@ namespace TowerOfHanoi
             }
             value += "---------------";
             return value;
+        }
+
+        public object Clone()
+        {
+            State newState = new State(new List<Pole>(), discCount);
+            for (int i = 0; i < Poles.Count; i++)
+            {
+                newState.Poles.Add((Pole)poles[i].Clone());
+            }
+            return newState;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if(!(obj is State))
+            {
+                return false;
+            }
+            State other = obj as State;
+            if(other.DiscCount != this.DiscCount)
+            {
+                return false;
+            }
+            for (int i = 0; i < this.Poles.Count; i++)
+            {
+                if(Poles[i].Discs.SequenceEqual(other.Poles[i].Discs) == false)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

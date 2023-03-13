@@ -29,7 +29,7 @@ namespace TowerOfHanoi
 
         public State ApplyState(State state)
         {
-            State newState = state;
+            State newState = (State)state.Clone();
             newState.Poles[to].Discs.Add(state.Poles[from].Discs[state.Poles[from].Discs.Count - 1]);
             newState.Poles[from].Discs.RemoveAt(state.Poles[from].Discs.Count - 1);
             return newState;

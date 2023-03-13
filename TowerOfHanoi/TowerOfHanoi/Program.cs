@@ -12,7 +12,7 @@ namespace TowerOfHanoi
         {
             State state = new State(new List<Pole>(), 3);
             state.SetStartingState(3);
-            Solver trialAndError = new TrialAndError(state);
+            Solver solver = new DepthFirst(state);
             Console.ReadLine();
         }
     }

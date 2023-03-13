@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TowerOfHanoi
 {
-    class Pole
+    class Pole : ICloneable
     {
         List<int> discs = new List<int>();
         string name;
@@ -19,5 +19,15 @@ namespace TowerOfHanoi
 
         public List<int> Discs { get => discs; set => discs = value; }
         public string Name { get => name; set => name = value; }
+
+        public object Clone()
+        {
+            Pole newPole = new Pole(new List<int>(), name);
+            for (int i = 0; i < discs.Count; i++)
+            {
+                newPole.discs.Add(discs[i]);
+            }
+            return newPole;
+        }
     }
 }
