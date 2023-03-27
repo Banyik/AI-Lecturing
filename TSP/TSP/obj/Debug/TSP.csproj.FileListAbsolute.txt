@@ -1,0 +1,7 @@
+C:\Users\user\Documents\Banyik\TSP\TSP\TSP\bin\Debug\TSP.exe.config
+C:\Users\user\Documents\Banyik\TSP\TSP\TSP\bin\Debug\TSP.exe
+C:\Users\user\Documents\Banyik\TSP\TSP\TSP\bin\Debug\TSP.pdb
+C:\Users\user\Documents\Banyik\TSP\TSP\TSP\obj\Debug\TSP.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Banyik\TSP\TSP\TSP\obj\Debug\TSP.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Banyik\TSP\TSP\TSP\obj\Debug\TSP.exe
+C:\Users\user\Documents\Banyik\TSP\TSP\TSP\obj\Debug\TSP.pdb
