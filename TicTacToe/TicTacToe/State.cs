@@ -67,9 +67,9 @@ namespace TicTacToe
             {
                 return true;
             }
-            for (int i = table.GetLength(1)-1; i > 0 ; i--)
+            for (int i = table.GetLength(1)-1; i >= 0 ; i--)
             {
-                if (table[2-i, i] == item)
+                if (table[i, 2-i] == item)
                 {
                     count++;
                 }
@@ -101,8 +101,9 @@ namespace TicTacToe
                         }
                     }
                 }
+                return true;
             }
-            return true;
+            return false;
         }
         public override string ToString()
         {
