@@ -11,6 +11,7 @@ namespace TicTacToe
         static void Main(string[] args)
         {
             State gameState = new State();
+            TrialAndError ai = new TrialAndError(gameState);
             Console.WriteLine(gameState);
             while (true)
             {
@@ -33,11 +34,7 @@ namespace TicTacToe
                     break;
                 }
                 Console.WriteLine("O turn:\n");
-                do
-                {
-                    op = new Operator(int.Parse(Console.ReadLine()), 'O');
-                } while (!op.IsExistingState(gameState));
-                op.ApplyState(gameState);
+                ai.GetMove(gameState);
                 Console.WriteLine(gameState);
                 if (gameState.IsTargetState('O'))
                 {
