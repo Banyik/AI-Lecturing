@@ -60,10 +60,7 @@ namespace MI_MP_S_1
             {
                 return false;
             }
-            else if((toX > fromX && state.Table[toX - 1, toY] == ' ') ||
-                    (toX < fromX && state.Table[toX + 1, toY] == ' ') ||
-                    (toY > fromY && state.Table[toX, toY - 1] == ' ') ||
-                    (toY < fromY && state.Table[toX, toY + 1] == ' '))
+            else if(state.Table[(fromX + toX)/2, (fromY + toY)/2] == ' ')
             {
                 return false;
             }
