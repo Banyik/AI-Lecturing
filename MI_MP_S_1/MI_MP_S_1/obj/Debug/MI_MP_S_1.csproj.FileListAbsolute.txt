@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\MI_MP_S_1\MI_MP_S_1\bin\Debug\MI_MP_S_1.exe.config
+C:\Users\user\source\repos\MI_MP_S_1\MI_MP_S_1\bin\Debug\MI_MP_S_1.exe
+C:\Users\user\source\repos\MI_MP_S_1\MI_MP_S_1\bin\Debug\MI_MP_S_1.pdb
+C:\Users\user\source\repos\MI_MP_S_1\MI_MP_S_1\obj\Debug\MI_MP_S_1.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\MI_MP_S_1\MI_MP_S_1\obj\Debug\MI_MP_S_1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MI_MP_S_1\MI_MP_S_1\obj\Debug\MI_MP_S_1.exe
+C:\Users\user\source\repos\MI_MP_S_1\MI_MP_S_1\obj\Debug\MI_MP_S_1.pdb
